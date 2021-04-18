@@ -1,0 +1,123 @@
+@font-face{
+	font-family: OrelegaOne;
+	src:url('fonts/OrelegaOne-Regular.ttf');
+}
+
+*{
+	    text-transform: uppercase;
+	    font-family:OrelegaOne, Arial ,Verdana ,Helvetica ;
+	    margin: 0;
+	    padding: 0;
+}
+
+.wrap{
+background-image:  url(../images/pexels-jeremy-bishop-2397414.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+clip-path: ellipse(92% 78% at 51% 21%);
+height: 650px;
+}
+body{
+	    background-color: #FC8877;
+}
+.btn-outline-success{
+	background-color: #77A8FC;
+	border: none;
+}
+.bg-light{
+	background-color: #dffc90!important;
+	transition: .5s;
+}
+
+.navbar-brand
+{
+	transform: rotate3d(0, 0, 0,0deg);
+	transition: .5s;
+}
+.navbar-brand:hover{
+	transform: rotate3d(2, -2, 3,-17deg);
+	  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px green;
+}
+.card{
+	border: none;
+	background:none ;
+}
+header .mainBanner .texts{
+	width: 100%;
+	color: #ffffff;
+	line-height: 60px;
+    letter-spacing:1px;
+    margin-top: 25px;
+
+}
+
+
+header .mainBanner .texts h1{
+	text-align: right;
+	font-size: 85px;
+	margin:50px 20px 5px 10px;
+}
+header .mainBanner .texts p{
+	text-align: center;
+	margin-left: 50px;
+
+}
+header .img .mobileMain{
+	border: none;
+
+}
+.section-tow{
+	background-color: #FC8877;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.section-tow h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-tow p{
+		margin-bottom: 50px;
+		margin-top: 50px;
+}
+.section3 .card{
+	width: 18rem;
+
+
+}
+.section3 .card img{
+	height: 300px;
+	transition: .5s;
+	border-radius: 5px;
+}
+.section3 .card img:hover{
+	transform: scale(1.3);
+	z-index: 2;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.section4{
+	background-color: #4A70B0!important;
+	padding: 20px;
+
+}
+footer{
+	height: 100px;
+	background-color: #B08730;
+}
+footer a{
+	color: black;
+	border: none!important;
+    padding:0 !important;
+    line-height: 0!important;
+}
+footer ul{
+	list-style: none;
+		text-align: center; 
+}
+footer ul li{
+	display: inline-block;
+	margin: 5px auto;
+	padding: 44px;
+}	
